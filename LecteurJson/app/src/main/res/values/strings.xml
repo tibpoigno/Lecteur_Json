@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lecteur Json</string>
+    <string name="BDD">
+        {   \"villes\":[
+            { \"nomVille\":\"brest\",\"pdt\":[
+                { \"type\":\"recyclable\", \"bacs\":[
+                    { \"latitude\":\"-4.2535465693346373\",\"longitude\":\"48.350480219193969\"},
+                    { \"latitude\":\"-4.2616111154599245\",\"longitude\":\"48.464685041002006\"},
+                    { \"latitude\":\"-4.2868967096749682\",\"longitude\":\"48.323584502538417\"}]
+                },
+                { \"type\" : \"dmr\", \"bacs\" : [
+                    { \"latitude\":\"-4.719976746571632\", \"longitude\":\"48.343895775682171\"},
+                    { \"latitude\":\"-4.7566649485281918\", \"longitude\":\"48.467074880477959\"},
+                    { \"latitude\":\"-4.6670975288108751\", \"longitude\":\"48.353171033741553\"}]
+                }]
+            }]
+        }
+    </string>
+	<string name="xsltfile">
+
+	</string>
+
+
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_carte">Map</string>
+</resources>

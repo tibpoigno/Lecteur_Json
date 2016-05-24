@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.thibault.lecteurjson.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DMR"
+        android:id="@+id/buttonDMR"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="274dp"
+        android:layout_marginStart="274dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECYCLABLE"
+        android:id="@+id/buttonRECYCLABLE"
+        android:layout_alignBottom="@+id/buttonDMR"
+        android:layout_toRightOf="@+id/buttonDMR"
+        android:layout_toEndOf="@+id/buttonDMR"
+        android:layout_marginLeft="189dp"
+        android:layout_marginStart="189dp" />
+</RelativeLayout>
